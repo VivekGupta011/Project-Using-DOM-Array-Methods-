@@ -17,7 +17,7 @@ body {
     margin: 0 auto;
     max-width: 100%;
     width: 800px;
-    height: 50vh;
+    height: 75vh;
     margin-top: 5%;
     background: #fff;
 }
@@ -30,15 +30,23 @@ body {
 
 button {
   cursor: pointer;
-  background-color: #fff;
+  background-color: #0556f3;
   border-radius: 5px;
-  border: solid 1px #111;
+  border: solid 1px #0556f3;
+  color: white;
   display: block;
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
   font-weight: bold;
   font-size: 14px;
+  transition: .5s ease-out;
+}
+button:hover{
+background-color: #3c63b0;
+color: white;
+border: #0556f3;
+transition: .5s ease-in-out;
 }
 
 main {
